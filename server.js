@@ -15,6 +15,8 @@ var Note = require("./models/Note");
 var Article = require("./models/Article");
 var databaseUrl = 'mongodb://localhost/nyt';
 
+
+
 if (process.env.MONGODB_URI) {
 	mongoose.connect(process.env.MONGODB_URI);
 }

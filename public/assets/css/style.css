@@ -35,7 +35,7 @@ header {
 header button {
 	float: left;
 	font-size: 20px;
-	color: #fff;
+	color: black;
 	height: 100%;
 	min-width: 150px;
 	padding: 0 15px;
@@ -46,15 +46,15 @@ header button {
 }
 
 #saved-articles {
-	background-color: #aaa;
+	background-color: lavender;
 }
 
 #refresh-articles {
-	background-color: #bbb;
+	background-color: lavender;
 }
 
 #all-articles:hover, #saved-articles:hover, #refresh-articles:hover {
-	background-color: #ccc;
+	background-color: rgb(142, 88, 214);
 	opacity: 0.9;
 }
 
@@ -79,14 +79,15 @@ header button {
 	float: left;
 	padding: 15px 11px;
 	height: 100%;
-	background-color: #92afcc;
+	background-color: lavender;
 	font-size: 23px;
 	font-weight: bold;
-	color: #fff;
+	color: black;
 	opacity: 0.7;
 }
 
 #cover {
+	padding-top: 59px;
 	width: 100%;
 	/* height: 300px; */
 }
@@ -95,7 +96,7 @@ header button {
 	margin: auto;
 	width: 95%;
 	min-height: 200px;
-	box-shadow: 0 0 10px #aaa;
+	box-shadow: 5px 8px rgba(105, 97, 97, 0.973);
 	background-color: #fff;
 }
 
