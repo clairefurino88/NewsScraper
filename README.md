@@ -17,5 +17,5 @@ The user can then view the articles he/she have saved and edit/view the note the
 
 ## Utilizing Mongo to store information
 
-![viewproducts](https://user-images.githubusercontent.com/33135335/39675501-c8d251ea-5129-11e8-9605-da0f9c4243c9.png)
+![screenshot 49](https://user-images.githubusercontent.com/33135335/39675554-c073f4b2-512a-11e8-91e1-808b270b2a55.png)
 All of the articles scraped from the New York Times will be saved in mLab. mLab is remote MongoDB database that Heroku supports natively. The saved articles will saved in mLab and the added/edited notes will be saved in mLab.
